@@ -1,0 +1,28 @@
+{
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 6
+  },
+  "extends": "standard",
+  "env": {
+    "node": true,
+    "es6": true,
+    "jasmine": true,
+    "mocha": true
+  },
+  "rules": {
+    "semi": 0,
+    "space-infix-ops": [2, {"int32Hint": false}],
+    "space-before-function-paren": 0,
+    "react/jsx-quotes": 0,
+    "jsx-quotes": 1,
+    "strict": 0,
+    "arrow-parens": [2, "as-needed"],
+    "generator-star-spacing": ["error", {"before": false, "after": true}],
+    "disallowSpacesInAnonymousFunctionExpression": 0
+  },
+  "plugins": [
+    "standard",
+    "react"
+  ]
+}
